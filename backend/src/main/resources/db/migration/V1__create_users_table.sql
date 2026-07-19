@@ -1,0 +1,10 @@
+CREATE TABLE users (
+    id BIGSERIAL PRIMARY KEY,
+    created_at TIMESTAMP NOT NULL,
+    updated_at TIMESTAMP NOT NULL,
+    full_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    register_number VARCHAR(100) NOT NULL UNIQUE,
+    role VARCHAR(50) NOT NULL,
+    active BOOLEAN NOT NULL DEFAULT TRUE
+);
