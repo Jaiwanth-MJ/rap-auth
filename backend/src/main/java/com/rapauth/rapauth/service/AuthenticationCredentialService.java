@@ -2,7 +2,6 @@ package com.rapauth.rapauth.service;
 
 import com.rapauth.rapauth.entity.auth.AuthenticationCredential;
 import com.rapauth.rapauth.entity.auth.AuthenticationEnrollment;
-import com.rapauth.rapauth.entity.auth.AuthenticationMethod;
 
 public interface AuthenticationCredentialService {
 
